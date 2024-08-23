@@ -1,5 +1,5 @@
 import random
-x = "The letter X"
+x = "The letter x"
 capitalize = False
 array = []
 rand_int = random.choice(range(1,21))
