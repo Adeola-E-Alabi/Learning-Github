@@ -1,6 +1,6 @@
 def toggle():
     import random
-    letter = "The letter X"
+    letter = "X"
     capitalize = False
     array = []
     rand_int = random.choice(range(1,21))
@@ -11,7 +11,7 @@ def toggle():
     for x in array:
         capitalize = (not capitalize)
         if capitalize == True:
-            x = "The letter X"
+            letter = "The letter X"
         else:
-            x = "The letter x"
-    return x
+            letter = "The letter x"
+    return letter
