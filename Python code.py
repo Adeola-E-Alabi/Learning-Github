@@ -1,4 +1,4 @@
-def toggle_capitalize():
+def toggle():
     import random
     x = "The letter X"
     capitalize = False
