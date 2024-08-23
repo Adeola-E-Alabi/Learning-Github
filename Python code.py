@@ -14,4 +14,4 @@ def toggle():
             x = "THE LETTER X"
         else:
             x = "the letter x"
-    print(x)
+    return x
