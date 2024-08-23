@@ -11,7 +11,7 @@ def toggle():
     for x in array:
         capitalize = (not capitalize)
         if capitalize == True:
-            x = "THE LETTER X"
+            x = "The letter X"
         else:
-            x = "the letter x"
+            x = "The letter x"
     return x
