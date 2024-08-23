@@ -1,6 +1,6 @@
 def toggle():
     import random
-    x = "The letter X"
+    letter = "The letter X"
     capitalize = False
     array = []
     rand_int = random.choice(range(1,21))
